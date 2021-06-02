@@ -1,8 +1,7 @@
 ## nidoca-http-client
 nidoca http client based on Fetch Web Api
 
-## npm package info
-
+## project info
 
 | description| content|
 | ------------- |:-------------:|
@@ -10,11 +9,7 @@ nidoca http client based on Fetch Web Api
 | minimize|[![Published on npm](https://img.shields.io/bundlephobia/min/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http)|
 | minzip|[![Published on npm](https://img.shields.io/bundlephobia/minzip/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http)|
 | downloads|[![Published on npm](https://img.shields.io/npm/dw/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http)|
-| code size|[![Published on npm](https://img.shields.io/npm/dw/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http)|
-
-
-## git info
-https://img.shields.io/github/languages/code-size/domoskanonos/nidoca-http-client
+| code size|[![Published on npm](https://img.shields.io/github/languages/code-size/domoskanonos/nidoca-http-client)](https://github.com/domoskanonos/nidoca-http-client)|
 
 ## usage typescript
     
