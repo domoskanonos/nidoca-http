@@ -16,6 +16,7 @@
   "scripts": {
     "build": "tsc -p ./",
     "eslint": "eslint src",
+    "eslint:fix": "eslint src --fix",
     "test": "echo no tests",
     "pretty": "prettier --write \"./**/*.{ts,json}\"",
     "bundle": "npm install && npm run eslint && npm run test && npm run build",
