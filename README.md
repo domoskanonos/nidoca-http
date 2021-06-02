@@ -17,7 +17,8 @@ based on web fetch api https://fetch.spec.whatwg.org/
     
     const defaultClientRequest = new HttpClientRequest();
     
-    const httpClientService : HttpClientService = new HttpClientService(httpClientProperties, defaultClientRequest),
+    const httpClientService : HttpClientService = 
+        new HttpClientService(httpClientProperties, defaultClientRequest),
 
     const request: HttpClientRequest = httpClientService.getDefaultGetRequestInstance();
     request.path = this.path.concat("/PATH");
