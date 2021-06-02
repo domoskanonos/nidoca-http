@@ -2,7 +2,7 @@
   "name": "@domoskanonos/nidoca-http-client-service",
   "author": "Dominik Bruhn",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "nidoca frontend basic package",
   "main": "lib/index.js",
   "devDependencies": {
