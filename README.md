@@ -1,5 +1,5 @@
-## nidoca-http-client
-nidoca http helper client to fetch data from server.
+## nidoca-http
+nidoca http helper classes to fetch data from server.
 based on web fetch api https://fetch.spec.whatwg.org/
 
 |project info|
