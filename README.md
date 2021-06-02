@@ -1,5 +1,6 @@
 ## nidoca-http-client
-nidoca http client based on web fetch api https://fetch.spec.whatwg.org/
+nidoca http helper client to fetch data from server.
+based on web fetch api https://fetch.spec.whatwg.org/
 
 |project info|
 |:-------------|
