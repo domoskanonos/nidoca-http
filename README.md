@@ -1,7 +1,7 @@
 ## nidoca-http-client
 nidoca http client based on Fetch Web Api
 
-## project info
+|project info|
 |:-------------|
 |[![Published on npm](https://img.shields.io/npm/v/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http)|
 |[![Published on npm](https://img.shields.io/bundlephobia/min/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http)|
