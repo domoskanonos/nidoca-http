@@ -1,4 +1,6 @@
 export {
+  HttpClientRequest,
+  HttpClientRequestType,
   HttpClientService,
   HttpClientCorsMode,
   HttpClientCredentials,
