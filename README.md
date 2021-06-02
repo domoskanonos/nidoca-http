@@ -10,7 +10,7 @@ based on web fetch api https://fetch.spec.whatwg.org/
 |[![Published on npm](https://img.shields.io/npm/dw/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http)|
 |[![Published on npm](https://img.shields.io/github/languages/code-size/domoskanonos/nidoca-http-client)](https://github.com/domoskanonos/nidoca-http-client)|
 
-## usage typescript  
+## HttpClientService usage in typescript  
     const httpClientProperties: HttpClientProperties = new HttpClientProperties();  
     httpClientProperties.baseURL = "http://localhost";
     httpClientProperties.port = "8090";
