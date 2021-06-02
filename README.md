@@ -8,7 +8,8 @@ based on web fetch api https://fetch.spec.whatwg.org/
 |[![Published on npm](https://img.shields.io/bundlephobia/min/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http)|
 |[![Published on npm](https://img.shields.io/bundlephobia/minzip/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http)|
 |[![Published on npm](https://img.shields.io/npm/dw/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http)|
-|[![Published on npm](https://img.shields.io/github/languages/code-size/domoskanonos/nidoca-http-client)](https://github.com/domoskanonos/nidoca-http-client)|
+|[![Published on npm](https://img.shields.io/npm/l/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http)|
+|[![Published on git](https://img.shields.io/github/languages/code-size/domoskanonos/nidoca-http)](https://github.com/domoskanonos/nidoca-http)|
 
 ## HttpClientService usage in typescript  
     const httpClientProperties: HttpClientProperties = new HttpClientProperties();  
