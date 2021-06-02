@@ -4,14 +4,13 @@ nidoca http client based on Fetch Web Api
 ## npm package info
 
 
-| description        | content           |
+| description| content|
 | ------------- |:-------------:|
-| version      | [![Published on npm](https://img.shields.io/npm/v/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http) |
-| minimize      | [![Published on npm](https://img.shields.io/bundlephobia/min/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http)      |
-| minzip | [![Published on npm](https://img.shields.io/bundlephobia/minzip/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http)      |
-| downloads | [![Published on npm](https://img.shields.io/npm/dw/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http)     |
-nidoca-http)      |
-| code size | [![Published on npm](https://img.shields.io/npm/dw/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http)      |
+| version|[![Published on npm](https://img.shields.io/npm/v/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http)|
+| minimize|[![Published on npm](https://img.shields.io/bundlephobia/min/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http)|
+| minzip|[![Published on npm](https://img.shields.io/bundlephobia/minzip/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http)|
+| downloads|[![Published on npm](https://img.shields.io/npm/dw/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http)|
+| code size|[![Published on npm](https://img.shields.io/npm/dw/@domoskanonos/nidoca-http)](https://www.npmjs.com/package/@domoskanonos/nidoca-http)|
 
 
 ## git info
