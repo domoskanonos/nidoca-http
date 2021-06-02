@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "declaration": true,
+    "outDir": "lib",
+    "module": "es2015",
+    "rootDir": "src",
+    "downlevelIteration": true,
+    "strict": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["src", "__tests__/router-service-test.ts"],
+  "exclude": ["node_modules"]
+}

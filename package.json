@@ -1,0 +1,26 @@
+{
+  "name": "@domoskanonos/nidoca-http-client-service",
+  "author": "Dominik Bruhn",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "nidoca frontend basic package",
+  "main": "lib/index.js",
+  "devDependencies": {
+    "@types/node": "15.6.1",
+    "@typescript-eslint/eslint-plugin": "4.23.0",
+    "@typescript-eslint/parser": "4.23.0",
+    "eslint": "7.26.0",
+    "prettier": "2.3.0",
+    "typescript": "4.3.2"
+  },
+  "scripts": {
+    "build": "tsc -p ./",
+    "eslint": "eslint src",
+    "test": "echo no tests",
+    "pretty": "prettier --write \"./**/*.{ts,json}\"",
+    "bundle": "npm install && npm run eslint && npm run test && npm run build",
+    "preversion": "",
+    "new-version": "npm run bundle && npm version patch && npm publish --access=public",
+    "postversion": ""
+  }
+}
