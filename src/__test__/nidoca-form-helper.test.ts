@@ -1,5 +1,5 @@
 import "@open-wc/testing";
-import {HttpClientProperties, HttpClientService} from "../src/http-client-service";
+import {HttpClientProperties, HttpClientService} from "../http-client-service";
 
 const assert = chai.assert;
 
