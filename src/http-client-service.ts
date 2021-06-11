@@ -68,10 +68,12 @@ export interface FileUpload {
 }
 
 export class HttpClientService {
+
   public constructor(
     private config: HttpClientProperties,
-    private defaultRequest: HttpClientRequest
   ) {}
+
+  defaultRequest: HttpClientRequest = new HttpClientRequest();
 
   private httpResponseCodeInterceptors: HttpResponseCodeInterceptor[] = [];
 
