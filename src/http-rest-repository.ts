@@ -36,23 +36,15 @@ export interface PageableContainer<T> {
   empty: boolean;
 }
 
-export abstract class HttpRemoteRepository<T, S> {
+export abstract class RestRepository<T, S> {
   constructor(protected httpClient: HttpClientService, protected path: string) {}
 
   private nidocaDateHelper: NidocaDateHelper = new NidocaDateHelper();
 
-  public async getAll(): Promise<T[]> {
-    const request: HttpClientRequest = this.httpClient.getDefaultGetRequestInstance();
-    request.path = this.path.concat("/ALL");
-    const response = await this.httpClient.request(request);
-    const bodyText: string = await response.text();
-    return <T[]>this.parseBody(bodyText);
-  }
-
   public async persist(item: T): Promise<T> {
     console.log("persist item, value: %s", JSON.stringify(item));
     const request: HttpClientRequest = this.httpClient.getDefaultGetRequestInstance();
-    request.path = this.path.concat("/CREATE");
+    request.path = this.path.concat("");
     request.requestMethod = HttpClientRequestType.POST;
     request.body = JSON.stringify(item);
     const response = await this.httpClient.request(request);
@@ -63,7 +55,7 @@ export abstract class HttpRemoteRepository<T, S> {
   public async update(id: S, item: T): Promise<T> {
     console.debug("update item for id= %s, value: %s", id, JSON.stringify(item));
     const request: HttpClientRequest = this.httpClient.getDefaultGetRequestInstance();
-    request.path = this.path.concat("/UPDATE/").concat(String(id));
+    request.path = this.path.concat("").concat(String(id));
     request.requestMethod = HttpClientRequestType.PUT;
     request.body = JSON.stringify(item);
     const response = await this.httpClient.request(request);
@@ -74,7 +66,7 @@ export abstract class HttpRemoteRepository<T, S> {
   public async delete(id: S): Promise<void> {
     console.debug("delete item for id= %s", id);
     const request: HttpClientRequest = this.httpClient.getDefaultGetRequestInstance();
-    request.path = this.path.concat("/DELETE/").concat(String(id));
+    request.path = this.path.concat("").concat(String(id));
     request.requestMethod = HttpClientRequestType.DELETE;
     await this.httpClient.request(request);
   }
@@ -85,7 +77,7 @@ export abstract class HttpRemoteRepository<T, S> {
     } else {
       console.debug("find item by id=%s", id);
       const request: HttpClientRequest = this.httpClient.getDefaultGetRequestInstance();
-      request.path = this.path.concat("/FIND_BY_ID/").concat(String(id));
+      request.path = this.path.concat("").concat(String(id));
       const response = await this.httpClient.request(request);
       const responseText: string = await response.text();
       return <T>this.parseBody(responseText);
@@ -100,7 +92,7 @@ export abstract class HttpRemoteRepository<T, S> {
   ): Promise<PageableContainer<T>> {
     const request: HttpClientRequest = this.httpClient.getDefaultGetRequestInstance();
     request.path = this.path
-      .concat("/SEARCH?")
+      .concat("?")
       .concat(searchParams)
       .concat("&page=")
       .concat(String(page))

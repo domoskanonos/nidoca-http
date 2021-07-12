@@ -17,5 +17,5 @@ export {
   PageableContainer,
   Sort,
   Sort2,
-  HttpRemoteRepository,
-} from "./http-remote-repository";
+  RestRepository as HttpRemoteRepository,
+} from "./http-rest-repository";
