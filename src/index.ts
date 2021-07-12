@@ -18,4 +18,4 @@ export {
   Sort,
   Sort2,
   RestRepository as HttpRemoteRepository,
-} from "./http-rest-repository";
+} from "./rest-repository";

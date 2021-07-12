@@ -55,7 +55,7 @@ export abstract class RestRepository<T, S> {
   public async update(id: S, item: T): Promise<T> {
     console.debug("update item for id= %s, value: %s", id, JSON.stringify(item));
     const request: HttpClientRequest = this.httpClient.getDefaultGetRequestInstance();
-    request.path = this.path.concat("").concat(String(id));
+    request.path = this.path.concat("/").concat(String(id));
     request.requestMethod = HttpClientRequestType.PUT;
     request.body = JSON.stringify(item);
     const response = await this.httpClient.request(request);
@@ -66,7 +66,7 @@ export abstract class RestRepository<T, S> {
   public async delete(id: S): Promise<void> {
     console.debug("delete item for id= %s", id);
     const request: HttpClientRequest = this.httpClient.getDefaultGetRequestInstance();
-    request.path = this.path.concat("").concat(String(id));
+    request.path = this.path.concat("/").concat(String(id));
     request.requestMethod = HttpClientRequestType.DELETE;
     await this.httpClient.request(request);
   }
@@ -77,7 +77,7 @@ export abstract class RestRepository<T, S> {
     } else {
       console.debug("find item by id=%s", id);
       const request: HttpClientRequest = this.httpClient.getDefaultGetRequestInstance();
-      request.path = this.path.concat("").concat(String(id));
+      request.path = this.path.concat("/").concat(String(id));
       const response = await this.httpClient.request(request);
       const responseText: string = await response.text();
       return <T>this.parseBody(responseText);
